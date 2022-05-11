@@ -1,0 +1,8 @@
+#EXTM3U8
+
+playlist = m3u8.load('http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/2cdmx9tx?tt_content=twitch_logo&tt_medium=embed/live')  # this could also be an absolute filename
+
+print(playlist.segments)
+
+print(playlist.target_duration)
+
